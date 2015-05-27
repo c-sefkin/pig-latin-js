@@ -7,4 +7,8 @@ describe('pigLatin', function() {
     expect(pigLatin('translate')).to.equal('anslatetray');
   });
 
+  it('will translate words in sentences to piglatin', function() {
+    expect(pigLatin('today is wednesday')).to.equal('odaytay isay ednesdayway');
+  });
+
 });
